@@ -18,8 +18,7 @@ public class TokenService {
     @Value("${api.token.secret}")
     private String secret;
 
-    private String gerarToken (AutenticacaoDeUsuario autenticacaoDeUsuario){
-
+    public String gerarToken (AutenticacaoDeUsuario autenticacaoDeUsuario){
         try {
             var algoritmo = Algorithm.HMAC256(secret);
             return JWT.create()
