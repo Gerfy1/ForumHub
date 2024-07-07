@@ -59,4 +59,4 @@ O Fórum hub é um desafio proposto pela a alura na conclusão do programa Oracl
 
 ## Diagrama do banco de dados
 
-![Diagrama do Banco de Dados](https://raw.githubusercontent.com/Gerfy1/ForumHub/master/.mvn/wrapper/diagrama_banco_de_dados_forumhub.png)
+![Diagrama do Banco de Dados](https://raw.githubusercontent.com/Gerfy1/ForumHub/master/.mvn/wrapper/T.png)
