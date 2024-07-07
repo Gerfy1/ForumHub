@@ -38,9 +38,8 @@ O Fórum hub é um desafio proposto pela a alura na conclusão do programa Oracl
 
 ## Endpoints Principais
 
-![SpringDocs!](https://raw.githubusercontent.com/Gerfy1/ForumHub/master/.mvn/wrapper/Screenshot_87.png)
+![SpringDocs!](https://github.com/Gerfy1/ForumHub/blob/master/.mvn/wrapper/t2.png?raw=true)
 
-![SpringDocs!](https://raw.githubusercontent.com/Gerfy1/ForumHub/master/.mvn/wrapper/image.png)
 
 - **Registrar Usuário:** `POST /usuarios`
 - **Atualizar Usuário:** `POST /usuarios`
