@@ -40,6 +40,8 @@ O Fórum hub é um desafio proposto pela a alura na conclusão do programa Oracl
 
 ![SpringDocs!](https://raw.githubusercontent.com/Gerfy1/ForumHub/master/.mvn/wrapper/Screenshot_87.png)
 
+![SpringDocs!](https://raw.githubusercontent.com/Gerfy1/ForumHub/master/.mvn/wrapper/image.png)
+
 - **Registrar Usuário:** `POST /usuarios`
 - **Atualizar Usuário:** `POST /usuarios`
 - **Registrar Usuário:** `DELETE /usuarios`
@@ -54,3 +56,7 @@ O Fórum hub é um desafio proposto pela a alura na conclusão do programa Oracl
 - **Visualizar Respostas de um Tópico Específico:** `GET /topicos/{id}/respostas/{id2}`
 - **Editar Resposta:** `PUT /topicos/{id}/respostas/{id2}`
 - **Deletar Resposta:** `DELETE /topicos/{id}/respostas/{id2}`
+
+## Diagrama do banco de dados
+
+![Diagrama do Banco de Dados](https://raw.githubusercontent.com/Gerfy1/ForumHub/master/.mvn/wrapper/diagrama_banco_de_dados_forumhub.png)
