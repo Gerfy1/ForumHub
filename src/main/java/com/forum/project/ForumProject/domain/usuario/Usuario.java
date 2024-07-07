@@ -18,49 +18,41 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
-public class Usuario implements UserDetails {
+public class Usuario{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String nome;
+
     private String email;
 
     private String senha;
 
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of(new SimpleGrantedAuthority("ROLE_USUARIO"));
+    private boolean ativo;
+
+    public Usuario(DadosCadastroUsuario dados){
+        this.ativo = true;
+        this.nome = dados.nome();
+        this.email = dados.email();
+        this.senha = dados.senha();
     }
 
-    @Override
-    public String getPassword() {
-        return senha;
+    public void atualizarDadosUsuario(DadosAtualizarUsuario dados){
+        if (dados.nome() != null){
+            this.nome = dados.nome();
+        }
+        if (dados.email() != null) {
+            this.email = dados.email();
+        }
+        if (dados.senha() != null){
+            this.senha = dados.senha();
+        }
     }
 
-    @Override
-    public String getUsername() {
-        return email;
-    }
-
-    @Override
-    public boolean isAccountNonExpired() {
-        return UserDetails.super.isAccountNonExpired();
-    }
-
-    @Override
-    public boolean isAccountNonLocked() {
-        return UserDetails.super.isAccountNonLocked();
-    }
-
-    @Override
-    public boolean isCredentialsNonExpired() {
-        return UserDetails.super.isCredentialsNonExpired();
-    }
-
-    @Override
-    public boolean isEnabled(){
-        return UserDetails.super.isEnabled();
+    public void excluirDadosUsuario(){
+        this.ativo = false;
     }
 
 }
