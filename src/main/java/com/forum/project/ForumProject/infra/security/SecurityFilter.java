@@ -1,5 +1,4 @@
 package com.forum.project.ForumProject.infra.security;
 
-
-public record DadosTokenJWT(String token) {
+public class SecurityFilter {
 }
