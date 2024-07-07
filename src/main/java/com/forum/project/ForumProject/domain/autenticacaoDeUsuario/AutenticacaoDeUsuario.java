@@ -19,7 +19,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
-public class AutenticaoDeUsuario implements UserDetails {
+public class AutenticacaoDeUsuario implements UserDetails {
 
     @Id@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
