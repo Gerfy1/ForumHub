@@ -6,15 +6,16 @@ O Fórum hub é um desafio proposto pela a alura na conclusão do programa Oracl
 
 ## Funcionalidades
 
-- **Criação de Tópicos:** Usuários cadastrados podem criar novos tópicos contendo um título e uma mensagem. Cada tópico pertence a um curso específico.
-- **Listagem de Tópicos:** Possibilidade de listar todos os tópicos cadastrados no banco de dados.
-- **Visualização de Tópico:** Visualizar os detalhes de um tópico específico.
-- **Autenticação e Autorização:** Somente usuários autenticados podem criar, editar ou deletar tópicos, garantindo a segurança e integridade dos dados.
-- **Criação de Respostas:** Usuários cadastrados podem criar novas respostas para tópicos contendo uma mensagem.
-- **Listagem de Respostas:** Possibilidade de listar todos as respostas de tópicos cadastrados no banco de dados.
-- **Visualização de Tópico:** Visualizar os detalhes de uma resposta específico.
-- **Autenticação e Autorização:** Somente usuários autenticados podem criar, editar ou deletar respostas, garantindo a segurança e integridade dos dados.
-- **Registro de Usuários:** Registro de novos usuários com geração de token JWT para autenticação.
+- **Criação de Tópicos:** Usuários registrados podem iniciar discussões sobre temas específicos de cursos, fornecendo um título e uma mensagem detalhada.
+- **Listagem de Tópicos:** Exibição de todos os tópicos disponíveis para navegação e participação.
+- **Visualização de Tópico:** Permite a visualização completa e detalhada de cada tópico individual.
+- **Autenticação e Autorização:** Garante que apenas usuários autenticados possam criar, modificar ou remover tópicos, assegurando a segurança dos dados.
+- **Criação de Respostas:** Capacidade para usuários cadastrados responderem aos tópicos existentes com suas contribuições.
+- **Listagem de Respostas:** Apresenta todas as respostas disponíveis para cada tópico, facilitando o acompanhamento das discussões.
+- **Visualização de Tópico:** Oferece uma visualização detalhada de cada resposta específica dentro de um tópico.
+- **Autenticação e Autorização:** Restringe a criação, edição e exclusão de respostas apenas a usuários autenticados, mantendo a integridade e a segurança dos dados do fórum.
+- **Registro de Usuários:** Permite que novos usuários se cadastrem no sistema, com a emissão de tokens JWT para autenticação segura.
+- 
 
 ## Regra de Negócio
 
