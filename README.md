@@ -16,7 +16,7 @@ O Fórum hub é um desafio proposto pela a alura na conclusão do programa Oracl
 - **Autenticação e Autorização:** Somente usuários autenticados podem criar, editar ou deletar respostas, garantindo a segurança e integridade dos dados.
 - **Registro de Usuários:** Registro de novos usuários com geração de token JWT para autenticação.
 
-## Requisitos de Negócio
+## Regra de Negócio
 
 1. **Usuários Cadastrados:** Apenas usuários registrados podem criar, editar ou deletar tópicos e respostas.
 2. **Autenticação:** Utilização de tokens Bearer para autenticação nas requisições.
