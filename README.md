@@ -15,7 +15,6 @@ O Fórum hub é um desafio proposto pela a alura na conclusão do programa Oracl
 - **Visualização de Tópico:** Oferece uma visualização detalhada de cada resposta específica dentro de um tópico.
 - **Autenticação e Autorização:** Restringe a criação, edição e exclusão de respostas apenas a usuários autenticados, mantendo a integridade e a segurança dos dados do fórum.
 - **Registro de Usuários:** Permite que novos usuários se cadastrem no sistema, com a emissão de tokens JWT para autenticação segura.
-- 
 
 ## Regra de Negócio
 
